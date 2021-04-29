@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1619669849 source:d:\myprojects\git\algorithm\3301\main.c
+	<stdio.h>
+	<stdlib.h>
+
