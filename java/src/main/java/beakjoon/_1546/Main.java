@@ -2,6 +2,9 @@ package beakjoon._1546;
 
 import java.util.Scanner;
 
+/**
+ * 백준 1546 - 평균 (https://www.acmicpc.net/problem/1546)
+ */
 public class Main {
     public static void main(String[] args) {
         solution2();

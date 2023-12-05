@@ -3,6 +3,10 @@ package beakjoon._1940;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * 백준 1940 - 주몽 (https://www.acmicpc.net/problem/1940)
+ * 알고리즘 : 투 포인터
+ */
 public class Main {
     public static void main(String[] args) {
         solution2();

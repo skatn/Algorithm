@@ -2,6 +2,9 @@ package beakjoon._11720;
 
 import java.util.Scanner;
 
+/**
+ * 백준 11720 - 숫자의 합 (https://www.acmicpc.net/problem/11720)
+ */
 public class Main {
 
     public static void main(String[] args) {

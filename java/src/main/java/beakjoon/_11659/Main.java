@@ -2,6 +2,9 @@ package beakjoon._11659;
 
 import java.util.Scanner;
 
+/**
+ * 백준 11659 - 구간 합 구하기 4 (https://www.acmicpc.net/problem/11659)
+ */
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

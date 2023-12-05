@@ -3,6 +3,10 @@ package beakjoon._9012;
 import java.util.Scanner;
 import java.util.Stack;
 
+/**
+ * 백준 9012 - 괄호 (https://www.acmicpc.net/problem/9012)
+ * 알고리즘 : 스택
+ */
 public class Main {
 
     public static void main(String[] args) {

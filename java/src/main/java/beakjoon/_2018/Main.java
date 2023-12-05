@@ -2,6 +2,10 @@ package beakjoon._2018;
 
 import java.util.Scanner;
 
+/**
+ * 백준 2018 - 수들의 합 5 (https://www.acmicpc.net/problem/2018)
+ * 알고리즘 : 투 포인터
+ */
 public class Main {
     public static void main(String[] args) {
         solution2();

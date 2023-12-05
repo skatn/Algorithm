@@ -7,6 +7,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.StringTokenizer;
 
+/**
+ * 백준 12891 - DNA 비밀번호 (https://www.acmicpc.net/problem/12891)
+ * 알고리즘 : 슬라이딩 윈도우
+ */
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
