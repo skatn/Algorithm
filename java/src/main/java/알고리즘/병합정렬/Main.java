@@ -29,20 +29,34 @@ public class Main {
         int mid = (start + end) / 2;
         mergeSort(arr, start, mid);
         mergeSort(arr, mid + 1, end);
+        merge(arr, start, mid, end);
+    }
 
+    private static void merge(int[] arr, int start, int mid, int end) {
         int leftIndex = start;
         int rightIndex = mid + 1;
+        int sortedIndex = start;
 
-        for (int i = start; i <= end; i++) {
-            if (rightIndex > end || leftIndex <= mid && arr[leftIndex] < arr[rightIndex]) {
-                sorted[i] = arr[leftIndex];
-                leftIndex++;
+        // 분할된 두 집합을 하나로 합치 면서, 둘중 하나 라도 병합이 완료 되면 종료
+        while (leftIndex <= mid && rightIndex <= end) {
+            if (arr[leftIndex] < arr[rightIndex]) {
+                sorted[sortedIndex++] = arr[leftIndex++];
             } else {
-                sorted[i] = arr[rightIndex];
-                rightIndex++;
+                sorted[sortedIndex++] = arr[rightIndex++];
             }
         }
 
+        // 왼쪽 집합의 남은 원소 추가
+        while (leftIndex <= mid) {
+            sorted[sortedIndex++] = arr[leftIndex++];
+        }
+
+        // 오른쪽 집합의 남은 원소 추가
+        while (rightIndex <= end) {
+            sorted[sortedIndex++] = arr[rightIndex++];
+        }
+
+        // 정렬된 데이터를 배열에 옮김
         for (int i = start; i <= end; i++) {
             arr[i] = sorted[i];
         }
