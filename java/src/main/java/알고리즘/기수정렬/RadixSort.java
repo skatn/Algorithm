@@ -23,14 +23,14 @@ public class RadixSort {
 
         // 기수 정렬 시작
         for (int digit = 1; digit <= maxDigit; digit *= 10) {
-            for (int i = 0; i < arr.length; i++) {
-                buckets.get(arr[i] / digit % 10).add(arr[i]);
+            for (int n : arr) {
+                buckets.get(n / digit % 10).add(n);
             }
 
             int arrIndex = 0;
-            for (int i = 0; i < buckets.size(); i++) {
-                while (!buckets.get(i).isEmpty()) {
-                    arr[arrIndex++] = buckets.get(i).remove();
+            for (Queue<Integer> bucket : buckets) {
+                while (!bucket.isEmpty()) {
+                    arr[arrIndex++] = bucket.remove();
                 }
             }
         }
