@@ -41,21 +41,21 @@ public class Main {
         bw.close();
     }
 
-    // 이진 탐색 : 찾으려는 값과 데이터셋의 중앙 값을 비교하여 비교 대상을 절반씩 줄여나가면서 탐색
+    // 이진 탐색 : 찾으려는 값과 데이터셋의 중앙 값을 비교하며 결과에 따라 비교 대상을 절반씩 줄여나가면서 탐색
     public static boolean binarySearch(int[] a, int n) {
-        int left = 0;
-        int right = a.length - 1;
+        int start = 0;
+        int end = a.length - 1;
 
-        // left가 right보다 크다는 의미는 더이상 탐색할 데이터가 없다는 것을 의미한다.
-        while (left <= right) {
+        // start가 end보다 크다는 의미는 더이상 탐색할 데이터가 없다는 것을 의미한다.
+        while (start <= end) {
             // 현재 데이터의 중앙값 도출
-            int mid = (left + right) / 2;
+            int mid = (start + end) / 2;
             int midValue = a[mid];
 
             if (n < midValue) {         // 찾으려는 값이 중앙값보다 작을 경우 왼쪽 데이터셋 탐색
-                right = mid - 1;
+                end = mid - 1;
             } else if (n > midValue){   // 찾으려는 값이 중앙값보다 클 경우 오른쪽 데이터셋 탐색
-                left = mid + 1;
+                start = mid + 1;
             }
             else {
                 return true;
