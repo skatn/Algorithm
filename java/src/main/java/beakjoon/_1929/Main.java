@@ -28,6 +28,7 @@ public class Main {
             }
         }
 
+        // 소수 출력
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         for (int i = m; i <= n; i++) {
             if (arr[i] == 0) {
