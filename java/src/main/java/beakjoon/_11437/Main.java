@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
  * 백준 11437 - LCA (https://www.acmicpc.net/problem/11437)
  * <p>
  *     LCA(Lowest Common Ancestor)란 트리 에서 최소 공통 조상을 찾는 알고리즘을 말한다. <br>
- *     쉽게 말해 두 노드의 최초 분기점을 찾는 알고리즘 이다.
+ *     쉽게 말해 두 노드의 마지막 분기점을 찾는 알고리즘 이다.
  * </p>
  */
 public class Main {
