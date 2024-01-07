@@ -1,4 +1,4 @@
-package programmers.최소직사각형;
+package programmers.level_1.최소직사각형;
 
 /**
  * 프로그래머스 - 최소직사각형 (https://school.programmers.co.kr/learn/courses/30/lessons/86491)

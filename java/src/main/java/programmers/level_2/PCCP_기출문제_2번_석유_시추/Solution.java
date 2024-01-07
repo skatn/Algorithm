@@ -1,4 +1,4 @@
-package programmers.PCCP_기출문제_2번_석유_시추;
+package programmers.level_2.PCCP_기출문제_2번_석유_시추;
 
 import java.awt.*;
 import java.util.*;

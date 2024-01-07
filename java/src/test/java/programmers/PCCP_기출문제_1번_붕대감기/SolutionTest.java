@@ -2,6 +2,7 @@ package programmers.PCCP_기출문제_1번_붕대감기;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import programmers.level_1.PCCP_기출문제_1번_붕대감기.Solution;
 
 import static org.junit.jupiter.api.Assertions.*;
 

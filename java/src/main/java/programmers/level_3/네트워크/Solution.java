@@ -1,4 +1,4 @@
-package programmers.네트워크;
+package programmers.level_3.네트워크;
 
 import java.util.LinkedList;
 import java.util.Queue;

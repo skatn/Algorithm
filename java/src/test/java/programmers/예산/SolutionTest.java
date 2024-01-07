@@ -2,6 +2,7 @@ package programmers.예산;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import programmers.level_1.예산.Solution;
 
 import static org.junit.jupiter.api.Assertions.*;
 

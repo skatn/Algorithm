@@ -1,4 +1,4 @@
-package programmers.K번째수;
+package programmers.level_1.K번째수;
 
 /**
  * 프로그래머스 - K번째수 (https://school.programmers.co.kr/learn/courses/30/lessons/42748)

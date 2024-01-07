@@ -1,4 +1,4 @@
-package programmers.같은_숫자는_싫어;
+package programmers.level_1.같은_숫자는_싫어;
 
 import java.util.Stack;
 

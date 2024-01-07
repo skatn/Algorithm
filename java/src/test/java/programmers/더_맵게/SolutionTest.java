@@ -2,8 +2,8 @@ package programmers.더_맵게;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import programmers.level_2.더_맵게.Solution;
 
-import java.util.ArrayList;
 import java.util.Random;
 
 import static org.junit.jupiter.api.Assertions.*;

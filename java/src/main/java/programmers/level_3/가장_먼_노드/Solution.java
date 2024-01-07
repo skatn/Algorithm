@@ -1,4 +1,4 @@
-package programmers.가장_먼_노드;
+package programmers.level_3.가장_먼_노드;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

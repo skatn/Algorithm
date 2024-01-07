@@ -1,4 +1,4 @@
-package programmers.PCCP_기출문제_1번_붕대감기;
+package programmers.level_1.PCCP_기출문제_1번_붕대감기;
 
 /**
  * 프로그래머스 - 붕대 감기 (https://school.programmers.co.kr/learn/courses/30/lessons/250137)

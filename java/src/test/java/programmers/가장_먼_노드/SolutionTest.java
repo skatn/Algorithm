@@ -2,6 +2,7 @@ package programmers.가장_먼_노드;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import programmers.level_3.가장_먼_노드.Solution;
 
 import static org.junit.jupiter.api.Assertions.*;
 

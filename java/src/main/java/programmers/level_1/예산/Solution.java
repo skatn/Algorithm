@@ -1,4 +1,4 @@
-package programmers.예산;
+package programmers.level_1.예산;
 
 import java.util.Arrays;
 

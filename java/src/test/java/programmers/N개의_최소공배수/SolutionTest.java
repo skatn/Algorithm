@@ -2,6 +2,7 @@ package programmers.N개의_최소공배수;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import programmers.level_2.N개의_최소공배수.Solution;
 
 import static org.junit.jupiter.api.Assertions.*;
 

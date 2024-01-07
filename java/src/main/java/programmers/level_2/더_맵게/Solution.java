@@ -1,4 +1,4 @@
-package programmers.더_맵게;
+package programmers.level_2.더_맵게;
 
 import java.util.NoSuchElementException;
 

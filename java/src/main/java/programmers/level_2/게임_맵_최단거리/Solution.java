@@ -1,4 +1,4 @@
-package programmers.게임_맵_최단거리;
+package programmers.level_2.게임_맵_최단거리;
 
 import java.util.LinkedList;
 import java.util.Queue;

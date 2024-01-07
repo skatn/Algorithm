@@ -2,6 +2,7 @@ package programmers.게임_맵_최단거리;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import programmers.level_2.게임_맵_최단거리.Solution;
 
 import static org.junit.jupiter.api.Assertions.*;
 

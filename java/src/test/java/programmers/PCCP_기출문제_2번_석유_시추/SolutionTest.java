@@ -2,6 +2,7 @@ package programmers.PCCP_기출문제_2번_석유_시추;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import programmers.level_2.PCCP_기출문제_2번_석유_시추.Solution;
 
 import static org.junit.jupiter.api.Assertions.*;
 

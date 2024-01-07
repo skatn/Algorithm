@@ -1,4 +1,4 @@
-package programmers.카펫;
+package programmers.level_2.카펫;
 
 /**
  * 프로그래머스 - 카펫 (https://school.programmers.co.kr/learn/courses/30/lessons/42842)
