@@ -1,5 +1,6 @@
 package beakjoon._1707;
 
+import beakjoon.gold._1707.Main;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
