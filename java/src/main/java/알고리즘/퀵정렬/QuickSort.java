@@ -13,13 +13,15 @@ public class QuickSort {
         int low = start + 1;
         int high = end;
 
-        while (low < high) {
-            while (low < high && arr[low] < arr[pivot]) low++;
-            while (low < high && arr[high] > arr[pivot]) high--;
-            swap(arr, low, high);
-        }
+        while (low <= high) {
+            while (low < end && arr[low] <= arr[pivot]) low++;
+            while (high > start && arr[high] >= arr[pivot]) high--;
 
-        swap(arr, pivot, high);
+            if(low >= high)
+                swap(arr, pivot, high);
+            else
+                swap(arr, low, high);
+        }
 
         qs(arr, start, high - 1);
         qs(arr, high + 1, end);
